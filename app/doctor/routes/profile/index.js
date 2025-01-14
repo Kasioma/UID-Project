@@ -60,7 +60,7 @@ const ProfilePage = () => {
               </View>
               <Text className="text-2xl">
                 <Text className=" font-bold">Age: </Text>
-                {patient.age} yrs
+                {patient.Age} yrs
               </Text>
               <Text className="text-2xl">
                 <Text className=" font-bold">Condition: </Text>

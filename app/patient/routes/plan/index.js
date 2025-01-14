@@ -25,14 +25,14 @@ const data = {
 };
 
 const taskList = [
-  { title: "Task 1", status: true },
-  { title: "Task 2", status: false },
-  { title: "Task 3", status: false },
-  { title: "Task 4", status: false },
-  { title: "Task 5", status: true },
-  { title: "Task 6", status: false },
-  { title: "Task 7", status: false },
-  { title: "Task 8", status: false },
+  { title: "Eye drops", status: true },
+  { title: "Aspenter + Rosucard", status: true },
+  { title: "Meditation exercies", status: false },
+  { title: "Vitamix mix", status: false },
+  { title: "Aspenter + Rosucard", status: false },
+  { title: "Back exercises", status: true },
+  { title: "Aspenter + Rosucard", status: false },
+  { title: "Eye drops", status: false },
 ];
 
 const App = () => {
@@ -61,7 +61,7 @@ const App = () => {
           <Text className="underline text-[#013a5e] text-3xl">Care Plan</Text>
         </View>
 
-        <View className="flex items-center w-3/4 mx-auto">
+        <View className="flex items-center w-3/4 mx-auto max-h-[50%]">
           <ScrollView
             contentContainerStyle={{ paddingVertical: 10 }}
             className="w-full  rounded-lg"
