@@ -18,7 +18,10 @@ const Menu = ({ FirstName }) => {
           <Hamburger className="text-[#fff6f6] text-3xl" />
         </TouchableOpacity>
         <Text className="text-[#fff6f6] text-2xl">Welcome {FirstName}!</Text>
-        <TouchableOpacity className="bg-[#fff6f6] rounded-lg px-3 py-2">
+        <TouchableOpacity
+          className="bg-[#fff6f6] rounded-lg px-3 py-2"
+          onPress={() => router.push("/patient/routes/contact")}
+        >
           <Text className="text-[#87284e] text-xl">HELP</Text>
         </TouchableOpacity>
       </View>

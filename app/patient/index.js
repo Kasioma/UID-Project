@@ -26,7 +26,7 @@ const data = {
 const App = () => {
   return (
     <SafeAreaProvider>
-      <SafeAreaView>
+      <SafeAreaView className="flex-1 bg-[#fce8e6]">
         <Menu FirstName={data.FirstName} />
         <PatientInfo patient={data} />
       </SafeAreaView>

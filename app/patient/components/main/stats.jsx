@@ -11,7 +11,7 @@ const PatientInfo = ({ patient }) => {
     <View className="flex-1 bg-[#fff6f6]">
       <ScrollView
         contentContainerStyle={{ paddingBottom: 20 }}
-        className="flex flex-col px-4 py-6"
+        className="flex-1 flex-col px-4 py-6"
         showsVerticalScrollIndicator={false}
       >
         <View className="flex flex-col items-center gap-4 my-4">
